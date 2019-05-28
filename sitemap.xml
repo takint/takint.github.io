@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://takint.github.io/</loc>
+    <loc>https://takint.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://takint.github.io/tags/</loc>
+    <loc>https://takint.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://takint.github.io/tutorials/</loc>
+    <loc>https://takint.github.io/tutorials/</loc>
     <priority>0</priority>
   </url>
   
