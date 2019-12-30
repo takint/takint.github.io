@@ -8,6 +8,12 @@
   </url>
   
   <url>
+    <loc>https://takint.github.io/tags/.net-developer/</loc>
+    <lastmod>2019-05-29T02:50:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://takint.github.io/about/</loc>
     <lastmod>2019-05-29T02:50:52+02:00</lastmod>
   </url>
@@ -24,12 +30,37 @@
   </url>
   
   <url>
+    <loc>https://takint.github.io/tags/</loc>
+    <lastmod>2019-05-29T02:50:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://takint.github.io/post/welcome/</loc>
     <lastmod>2019-05-29T02:50:52+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://takint.github.io/tags/</loc>
+    <loc>https://takint.github.io/tags/cv/</loc>
+    <lastmod>2019-05-29T02:50:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://takint.github.io/tags/full-stack-.net-developer/</loc>
+    <lastmod>2019-05-29T02:50:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://takint.github.io/tags/resume/</loc>
+    <lastmod>2019-05-29T02:50:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://takint.github.io/tags/software-developer/</loc>
+    <lastmod>2019-05-29T02:50:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
