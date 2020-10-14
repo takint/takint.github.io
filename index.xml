@@ -6,10 +6,20 @@
     <description>Recent content on Jim Le: Full Stack Developer in Vacounver, Canada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2019 02:50:52 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2020 10:38:50 -0700</lastBuildDate>
     
 	<atom:link href="https://takint.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Multi-threading programming in C# notes</title>
+      <link>https://takint.github.io/post/jimbranindump/</link>
+      <pubDate>Wed, 14 Oct 2020 10:38:50 -0700</pubDate>
+      
+      <guid>https://takint.github.io/post/jimbranindump/</guid>
+      <description>Thread safety removes the following conditions in the code:  Race condition occurs when two threads access a shared variable at the same time. The first thread reads the variable, and the second thread writes to the same variable at the same time.
+ Deadlock case happens in concurrent or multi-threaded environment. It is kind of a situation in which two or more competing threads or tasks wait for the other task to finish and they never finish.</description>
+    </item>
     
     <item>
       <title>About Me</title>
@@ -26,7 +36,7 @@
       <pubDate>Wed, 29 May 2019 02:50:52 +0200</pubDate>
       
       <guid>https://takint.github.io/post/welcome/</guid>
-      <description>Welcome to my personal website.
+      <description>Welcome to my blog!!
 Cheers !</description>
     </item>
     
