@@ -25,11 +25,6 @@
   </url>
   
   <url>
-    <loc>https://takint.github.io/about/</loc>
-    <lastmod>2019-05-29T02:50:52+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://takint.github.io/resume/</loc>
     <lastmod>2019-05-29T02:50:52+02:00</lastmod>
   </url>
@@ -66,6 +61,11 @@
   <url>
     <loc>https://takint.github.io/tags/software-developer/</loc>
     <lastmod>2019-05-29T02:50:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://takint.github.io/about/</loc>
     <priority>0</priority>
   </url>
   
