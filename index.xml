@@ -6,22 +6,21 @@
     <description>Recent content on Jim Le: Full Stack Developer in Vacounver, Canada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 10:38:50 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2020 00:23:16 -0800</lastBuildDate>
     
 	<atom:link href="https://takint.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Jim&#39;s braindump</title>
-      <link>https://takint.github.io/post/jim-braindump/</link>
-      <pubDate>Wed, 11 Nov 2020 10:38:50 -0700</pubDate>
+      <title>OOP Programming</title>
+      <link>https://takint.github.io/post/oop-programming/</link>
+      <pubDate>Tue, 10 Nov 2020 00:23:16 -0800</pubDate>
       
-      <guid>https://takint.github.io/post/jim-braindump/</guid>
-      <description> This is my braindump for a few notes about my favourites and interested tools:  C# (C Sharp):
- Multi-threading programming in C# notes
-  JavaScript:
- Arrow functions in JavaScript notes
-   </description>
+      <guid>https://takint.github.io/post/oop-programming/</guid>
+      <description>Object Oriented Programming: As we all may know, it is a programming paradigm based on the concept of &amp;ldquo;objects&amp;rdquo;.
+ Class: classes are blueprint of an object. In other words, a class is a template while object are instances of the class.
+ Object: an object is a unique entity which has some properties and methods.
+ Abstraction is a way of hiding the implementation details and showing only the functionality to the users.</description>
     </item>
     
     <item>

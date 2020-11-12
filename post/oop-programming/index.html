@@ -4,16 +4,17 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="description" content="">
-    <meta property="og:title" content="Posts">
+    <meta property="og:title" content="OOP Programming">
     
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2020-11-10">
     
     <meta property="og:description" content="">
-    <meta property="og:url" content="https://takint.github.io/post/">
+    <meta property="og:url" content="https://takint.github.io/post/oop-programming/">
     <meta property="og:site_name" content="Jim Le: Full Stack Developer in Vacounver, Canada">
     
     <meta name="generator" content="Hugo 0.55.6" />
-    <title>Posts &middot; Jim Le: Full Stack Developer in Vacounver, Canada</title>
+    <title>OOP Programming &middot; Jim Le: Full Stack Developer in Vacounver, Canada</title>
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -106,114 +107,61 @@
 			<div class="row">
 				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
 
-<header>
-	
-	
-		<h1>What I'm Thinking and my Braindump</h1>
-	
-</header>
+<main>
+	<header>
+		<h1>OOP Programming</h1>
+	</header>
 
+	<article>
+		
 
-	<div class="panel panel-default">
-	<div class="panel-header">
-		<h3>
-			<a href="https://takint.github.io/post/oop-programming/">OOP Programming</a>
-			<br>
-			<small>
-				10 November 2020
-			</small>
-		</h3>
-	</div>
-	<div class="panel-body">
-		Object Oriented Programming: As we all may know, it is a programming paradigm based on the concept of &ldquo;objects&rdquo;.
- Class: classes are blueprint of an object. In other words, a class is a template while object are instances of the class.
- Object: an object is a unique entity which has some properties and methods.
- Abstraction is a way of hiding the implementation details and showing only the functionality to the users.
-		
-			... <a href="https://takint.github.io/post/oop-programming/">Read More</a>
-		
-	</div>
-	<div class="panel-footer">
-		
-	</div>
+<h4 id="object-oriented-programming">Object Oriented Programming:</h4>
+
+<p>As we all may know, it is a programming paradigm based on the concept of &ldquo;objects&rdquo;.</p>
+
+<ul>
+<li><p><strong>Class:</strong> classes are blueprint of an object. In other words, a class is a template while object are instances of the class.</p></li>
+
+<li><p><strong>Object:</strong> an object is a unique entity which has some properties and methods.</p></li>
+
+<li><p><strong>Abstraction</strong> is a way of hiding the implementation details and showing only the functionality to the users.</p></li>
+
+<li><p><strong>Polymorphism</strong> provides a way to perform a single action in different forms.</p></li>
+
+<li><p><strong>Encapsulation</strong> is the process of wrapping properties and functions (methods) within a single unit.</p></li>
+
+<li><p><strong>Inheritence</strong> is a concept in which some properties and methods of an class is being used by another class.</p></li>
+</ul>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+	<a href=" https://takint.github.io/" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
 </div>
 
 
-	<div class="panel panel-default">
-	<div class="panel-header">
-		<h3>
-			<a href="https://takint.github.io/post/arrow-function/">Arrow Function</a>
-			<br>
-			<small>
-				10 November 2020
-			</small>
-		</h3>
-	</div>
-	<div class="panel-body">
-		Main benefit:  No binding of &lsquo;this&rsquo;
-ES6 arrow functions can’t be bound to a this keyword, so it will lexically go up a scope, and use the value of this in the scope in which it was defined.
- No self-referencing
-If your function needs to have a self-reference at any point (e.g. recursion, event handler that needs to unbind), it will not work.
-  Arrow functions shine best with anything that requires this to be bound to the context, and not the function itself.
-		
-			... <a href="https://takint.github.io/post/arrow-function/">Read More</a>
-		
-	</div>
-	<div class="panel-footer">
-		
-	</div>
-</div>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "takint" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-
-	<div class="panel panel-default">
-	<div class="panel-header">
-		<h3>
-			<a href="https://takint.github.io/post/multi-threading-programming/">Multi-threading programming</a>
-			<br>
-			<small>
-				9 November 2020
-			</small>
-		</h3>
-	</div>
-	<div class="panel-body">
-		Thread safety removes the following conditions in the code:  Race condition occurs when two threads access a shared variable at the same time. The first thread reads the variable, and the second thread writes to the same variable at the same time.
- Deadlock case happens in concurrent or multi-threaded environment. It is kind of a situation in which two or more competing threads or tasks wait for the other task to finish and they never finish.
-		
-			... <a href="https://takint.github.io/post/multi-threading-programming/">Read More</a>
-		
-	</div>
-	<div class="panel-footer">
-		
-	</div>
-</div>
-
-
-	<div class="panel panel-default">
-	<div class="panel-header">
-		<h3>
-			<a href="https://takint.github.io/post/welcome/">Welcome to my personal blog posts!</a>
-			<br>
-			<small>
-				29 May 2019
-			</small>
-		</h3>
-	</div>
-	<div class="panel-body">
-		 I hope you could find something helpful on your path here.
-Cheers ! 
-		
-	</div>
-	<div class="panel-footer">
-		
-	</div>
-</div>
-
-
-
-<div class="text-center center-block">
-	
-
-</div>
 
 						</div>
 					</div>
