@@ -4,17 +4,17 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="description" content="">
-    <meta property="og:title" content="Here is my brain-dump for some of practical things">
+    <meta property="og:title" content="Multi-threading programming in C# notes">
     
     <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2019-05-29">
+    <meta property="article:published_time" content="2020-10-14">
     
     <meta property="og:description" content="">
     <meta property="og:url" content="https://takint.github.io/post/jimbraindump/">
     <meta property="og:site_name" content="Jim Le: Full Stack Developer in Vacounver, Canada">
     
     <meta name="generator" content="Hugo 0.55.6" />
-    <title>Here is my brain-dump for some of practical things &middot; Jim Le: Full Stack Developer in Vacounver, Canada</title>
+    <title>Multi-threading programming in C# notes &middot; Jim Le: Full Stack Developer in Vacounver, Canada</title>
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -79,7 +79,7 @@
 		
 		<div id="social" class="text-center">
 			
-				<a href="https://www.linkedin.com/in/ngoc-tin-le/"><i class="fa fa-linkedin fa-2x"></i></a>
+				<a href="https://www.linkedin.com/in/jimle15/"><i class="fa fa-linkedin fa-2x"></i></a>
 			
 				<a href="https://github.com/takint"><i class="fa fa-github fa-2x"></i></a>
 			
@@ -109,39 +109,26 @@
 
 <main>
 	<header>
-		<h1>Here is my brain-dump for some of practical things</h1>
+		<h1>Multi-threading programming in C# notes</h1>
 	</header>
 
 	<article>
 		
 
-<h1 id="multi-threading-programming-in-c-notes">Multi-threading programming in C# notes:</h1>
-
-<p>Thread safety removes the following conditions in the code:</p>
+<h4 id="this-is-my-braindump-for-a-few-notes-about-my-favourites-and-interested-tools">This is my braindump for a few notes about my favourites and interested tools:</h4>
 
 <ul>
-<li><p><strong>Race condition</strong> occurs when two threads access a shared variable at the same time. The first thread reads the variable, and the second thread writes to the same variable at the same time.</p></li>
-
-<li><p><strong>Deadlock</strong> case happens in concurrent or multi-threaded environment. It is kind of a situation in which two or more competing threads or tasks wait for the other task to finish and they never finish.</p></li>
-</ul>
-
-<p>Is the C# Static Constructor Thread -Safe?</p>
+<li><p><strong>C# (C Sharp):</strong></p>
 
 <ul>
-<li>Yes, using a Static Constructor actually is Thread-Safe.
-because Static constructors are guaranteed to be run only once per application domain, before any instances of a class are created or any static members are accessed.</li>
-</ul>
+<li><a href="/post/multi-threading-programming">Multi-threading programming in C# notes</a></li>
+</ul></li>
 
-<p>Is C# Static Method Thread-Safe?</p>
-
-<ul>
-<li>No, Static methods are not thread-safe. CLR of C# doesn&rsquo;t thread different than instance method.</li>
-</ul>
-
-<p>Is C# Delegate Thread-Safe?</p>
+<li><p><strong>JavaScript:</strong></p>
 
 <ul>
-<li>Yes, invoking a Delegate is thread-safe. Since a Delegate is immutable type so it is thread safe. However, modifying event is not thread-safe.</li>
+<li><a href="/post/arrow-function">Arrow functions in JavaScript notes</a></li>
+</ul></li>
 </ul>
 
 	</article>

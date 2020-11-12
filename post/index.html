@@ -117,18 +117,19 @@
 	<div class="panel panel-default">
 	<div class="panel-header">
 		<h3>
-			<a href="https://takint.github.io/post/jimbranindump/">Multi-threading programming in C# notes</a>
+			<a href="https://takint.github.io/post/jim-braindump/">Jim&#39;s braindump</a>
 			<br>
 			<small>
-				14 October 2020
+				11 November 2020
 			</small>
 		</h3>
 	</div>
 	<div class="panel-body">
-		Thread safety removes the following conditions in the code:  Race condition occurs when two threads access a shared variable at the same time. The first thread reads the variable, and the second thread writes to the same variable at the same time.
- Deadlock case happens in concurrent or multi-threaded environment. It is kind of a situation in which two or more competing threads or tasks wait for the other task to finish and they never finish.
-		
-			... <a href="https://takint.github.io/post/jimbranindump/">Read More</a>
+		 This is my braindump for a few notes about my favourites and interested tools:  C# (C Sharp):
+ Multi-threading programming in C# notes
+  JavaScript:
+ Arrow functions in JavaScript notes
+   
 		
 	</div>
 	<div class="panel-footer">
@@ -140,7 +141,56 @@
 	<div class="panel panel-default">
 	<div class="panel-header">
 		<h3>
-			<a href="https://takint.github.io/post/welcome/">Welcome !</a>
+			<a href="https://takint.github.io/post/arrow-function/">Arrow Function</a>
+			<br>
+			<small>
+				10 November 2020
+			</small>
+		</h3>
+	</div>
+	<div class="panel-body">
+		Main benefit:  No binding of &lsquo;this&rsquo;
+ES6 arrow functions can’t be bound to a this keyword, so it will lexically go up a scope, and use the value of this in the scope in which it was defined.
+ No self-referencing
+If your function needs to have a self-reference at any point (e.g. recursion, event handler that needs to unbind), it will not work.
+  Arrow functions shine best with anything that requires this to be bound to the context, and not the function itself.
+		
+			... <a href="https://takint.github.io/post/arrow-function/">Read More</a>
+		
+	</div>
+	<div class="panel-footer">
+		
+	</div>
+</div>
+
+
+	<div class="panel panel-default">
+	<div class="panel-header">
+		<h3>
+			<a href="https://takint.github.io/post/multi-threading-programming/">Multi-threading programming</a>
+			<br>
+			<small>
+				9 November 2020
+			</small>
+		</h3>
+	</div>
+	<div class="panel-body">
+		Thread safety removes the following conditions in the code:  Race condition occurs when two threads access a shared variable at the same time. The first thread reads the variable, and the second thread writes to the same variable at the same time.
+ Deadlock case happens in concurrent or multi-threaded environment. It is kind of a situation in which two or more competing threads or tasks wait for the other task to finish and they never finish.
+		
+			... <a href="https://takint.github.io/post/multi-threading-programming/">Read More</a>
+		
+	</div>
+	<div class="panel-footer">
+		
+	</div>
+</div>
+
+
+	<div class="panel panel-default">
+	<div class="panel-header">
+		<h3>
+			<a href="https://takint.github.io/post/welcome/">Welcome to my personal blog posts!</a>
 			<br>
 			<small>
 				29 May 2019
@@ -148,8 +198,8 @@
 		</h3>
 	</div>
 	<div class="panel-body">
-		Welcome to my blog!!
-Cheers !
+		 I hope you could find something helpful on your path here.
+Cheers ! 
 		
 	</div>
 	<div class="panel-footer">

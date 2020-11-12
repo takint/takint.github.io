@@ -6,29 +6,55 @@
     <description>Recent content on Jim Le: Full Stack Developer in Vacounver, Canada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2020 10:38:50 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2020 10:38:50 -0700</lastBuildDate>
     
 	<atom:link href="https://takint.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Multi-threading programming in C# notes</title>
-      <link>https://takint.github.io/post/jimbranindump/</link>
-      <pubDate>Wed, 14 Oct 2020 10:38:50 -0700</pubDate>
+      <title>Jim&#39;s braindump</title>
+      <link>https://takint.github.io/post/jim-braindump/</link>
+      <pubDate>Wed, 11 Nov 2020 10:38:50 -0700</pubDate>
       
-      <guid>https://takint.github.io/post/jimbranindump/</guid>
+      <guid>https://takint.github.io/post/jim-braindump/</guid>
+      <description> This is my braindump for a few notes about my favourites and interested tools:  C# (C Sharp):
+ Multi-threading programming in C# notes
+  JavaScript:
+ Arrow functions in JavaScript notes
+   </description>
+    </item>
+    
+    <item>
+      <title>Arrow Function</title>
+      <link>https://takint.github.io/post/arrow-function/</link>
+      <pubDate>Tue, 10 Nov 2020 00:08:25 -0800</pubDate>
+      
+      <guid>https://takint.github.io/post/arrow-function/</guid>
+      <description>Main benefit:  No binding of &amp;lsquo;this&amp;rsquo;
+ES6 arrow functions can’t be bound to a this keyword, so it will lexically go up a scope, and use the value of this in the scope in which it was defined.
+ No self-referencing
+If your function needs to have a self-reference at any point (e.g. recursion, event handler that needs to unbind), it will not work.
+  Arrow functions shine best with anything that requires this to be bound to the context, and not the function itself.</description>
+    </item>
+    
+    <item>
+      <title>Multi-threading programming</title>
+      <link>https://takint.github.io/post/multi-threading-programming/</link>
+      <pubDate>Mon, 09 Nov 2020 12:22:17 -0800</pubDate>
+      
+      <guid>https://takint.github.io/post/multi-threading-programming/</guid>
       <description>Thread safety removes the following conditions in the code:  Race condition occurs when two threads access a shared variable at the same time. The first thread reads the variable, and the second thread writes to the same variable at the same time.
  Deadlock case happens in concurrent or multi-threaded environment. It is kind of a situation in which two or more competing threads or tasks wait for the other task to finish and they never finish.</description>
     </item>
     
     <item>
-      <title>Welcome !</title>
+      <title>Welcome to my personal blog posts!</title>
       <link>https://takint.github.io/post/welcome/</link>
       <pubDate>Wed, 29 May 2019 02:50:52 +0200</pubDate>
       
       <guid>https://takint.github.io/post/welcome/</guid>
-      <description>Welcome to my blog!!
-Cheers !</description>
+      <description> I hope you could find something helpful on your path here.
+Cheers ! </description>
     </item>
     
     <item>
