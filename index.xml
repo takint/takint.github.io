@@ -6,7 +6,7 @@
     <description>Recent content on Jim Le: Full Stack Developer in Vacounver, Canada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2020 00:17:09 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2020 13:51:13 -0800</lastBuildDate>
     
 	<atom:link href="https://takint.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,17 +14,30 @@
     <item>
       <title>Jim&#39;s braindump</title>
       <link>https://takint.github.io/post/jim-braindump/</link>
-      <pubDate>Fri, 27 Nov 2020 00:17:09 -0800</pubDate>
+      <pubDate>Sun, 29 Nov 2020 13:51:13 -0800</pubDate>
       
       <guid>https://takint.github.io/post/jim-braindump/</guid>
       <description> This is my braindump for a few notes about my favourites and interested tools:  C# (C Sharp):
  Multi-threading programming in C# notes
   JavaScript:
  Arrow functions in JavaScript notes
+ Optimized React tips
   Programming:
  Object-Oriented programming
  MVC in a nutshell
    </description>
+    </item>
+    
+    <item>
+      <title>React Optimization</title>
+      <link>https://takint.github.io/post/react-optimization/</link>
+      <pubDate>Sun, 29 Nov 2020 11:51:13 -0800</pubDate>
+      
+      <guid>https://takint.github.io/post/react-optimization/</guid>
+      <description>Parent and child components are often re-rendered in the following scenario:  When setState is called in the same component or parent component.
+ Change in the value of “props” received from a parent.
+ Calling forceUpdate in the component.
+  React Performance Optimization is easy to achieve with the following simple steps.  Use React Pure Components to reduce Re-rendering Using React Hooks and working with functional programming Use React.</description>
     </item>
     
     <item>
