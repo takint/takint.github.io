@@ -6,10 +6,41 @@
     <description>Recent content in Posts on Jim Le: Full Stack Developer in Vacounver, Canada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Nov 2020 13:51:13 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 09:21:32 -0800</lastBuildDate>
     
 	<atom:link href="https://takint.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Asynchronous Programming Js</title>
+      <link>https://takint.github.io/post/asynchronous-programming-js/</link>
+      <pubDate>Tue, 15 Dec 2020 09:21:32 -0800</pubDate>
+      
+      <guid>https://takint.github.io/post/asynchronous-programming-js/</guid>
+      <description>Promises and observables are all about: handling asynchronous execution. There are different ways in JavaScript to create asynchronous code.
+ Callbacks Promises Async/Await RxJS Observables  Callbacks This is the old-fashioned classical approach to asynchronous programming. You provide a function as an argument to another function that executes an asynchronous task. When the asynchronous task completes, the executing function calls your callback function. The main disadvantage of this approach occurs when you have multiple chained asynchronous tasks, which requires you to define callback functions within callback functions within callback functions… This is called callback hell.</description>
+    </item>
+    
+    <item>
+      <title>Solving Problem Mindset</title>
+      <link>https://takint.github.io/post/solving-problem-mindset/</link>
+      <pubDate>Tue, 15 Dec 2020 09:04:53 -0800</pubDate>
+      
+      <guid>https://takint.github.io/post/solving-problem-mindset/</guid>
+      <description>Now, “problem-solving” as a term in school (where you were five minutes ago) is kind of partial. It’s rather a “problem-solving training” — it’s kind of predictable. In real life, on the other hand, solving the same problems, again and again, is the last thing you want to do — and it’s not your job.
+Your job is to solve them once and for all — big difference. And to do that, you need to identify them, assess them, question, plan, collaborate, initiate, investigate, communicate, adapt.</description>
+    </item>
+    
+    <item>
+      <title>Tdd Test Programming</title>
+      <link>https://takint.github.io/post/tdd-test-programming/</link>
+      <pubDate>Tue, 08 Dec 2020 10:45:08 -0800</pubDate>
+      
+      <guid>https://takint.github.io/post/tdd-test-programming/</guid>
+      <description>Unit Tests: Test individual components in isolation from environment and concrete dependencies Integration Tests: Test how concrete components work together within a given subsystem End-to-End Tests: Test the behavior of an entire system with all parts functioning together
+  Distinguish these tests from Automated UI Tests (see below) if I am driving the system via an API instead of a GUI.
+ Automated UI Tests: These are commonly used for web-based projects, filling a couple of different roles: Content-based Testing: Verifies that the visual, content, and layout properties of a given view are correct Functional Testing: Verifies end-to-end functionality by driving the UI and verifying (from the UI layer) that the system functions correctly.</description>
+    </item>
     
     <item>
       <title>Jim&#39;s braindump</title>
